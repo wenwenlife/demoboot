@@ -29,7 +29,7 @@
     </div>
     
     <div class="form-group">
-        <label class="col-sm-3 control-label" for="useable">是否可用：</label>
+        <label class="col-sm-3 control-label" for="useable">是否上班：</label>
         <div class="col-sm-8">
             <div class="radio">
 				<label style="display: inline-block; width: 50px;">

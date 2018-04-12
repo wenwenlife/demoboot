@@ -9,9 +9,9 @@
     </div>
     
     <div class="form-group">
-        <label class="col-sm-3 control-label" for="cname"><font color="red">*</font>中文名称：</label>
+        <label class="col-sm-3 control-label" for="cname"><font color="red">*</font>所属部门：</label>
         <div class="col-sm-8">
-            <input class="form-control" type="text" id="cname" name="cname" placeholder="请填写中文名称" />
+            <input class="form-control" type="text" id="cname" name="cname" placeholder="请正确填写" />
             <div id="validation-cname" class="validate-error help-block"></div>
         </div>
     </div>

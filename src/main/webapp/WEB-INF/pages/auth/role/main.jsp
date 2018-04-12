@@ -14,8 +14,8 @@
         $("#openAppGrid").sgrid({
             columns:[
                 {field:"roleid",text:"角色ID", sortColumn:"roleid"},
-                {field:"rolename", text:"角色名称"},
-                {field:"cname", text:"中文名称"},
+                {field:"rolename", text:"所属部门"},
+                {field:"cname", text:"角色权限"},
                 {field:"roleid", text:"操作", style:"text-align:center", formatter:function(index, content, data){
                     var editUrl = "admin/role/updatePage/" + content;
                     var delUrl = "admin/role/deleteByID/" + content;

@@ -49,7 +49,7 @@
     <link href="${ctx}/assets/js/colorpicker/jquery.bigcolorpicker.css" rel="stylesheet">
     <script src="${ctx}/assets/js/colorpicker/jquery.bigcolorpicker.js"></script>
     <script>
-        // 影藏popover
+        // 隐藏popover
         function hideJwpopover(){
             $('.jwpopover').each(function(index, obj){
                 $(obj).webuiPopover('hide');

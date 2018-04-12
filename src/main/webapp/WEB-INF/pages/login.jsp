@@ -12,6 +12,7 @@
 		<meta name="description" content="User login page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 		<script type="text/javascript">
+		<%--填充默认值--%>
 			window.jQuery || document.write("<script src='${ctx}/assets/js/jquery.js'>"+"<"+"/script>");
 		</script>
 		<script src="${ctx}/assets/js/jquery.cookie.js"></script>
@@ -315,7 +316,6 @@
                         <img src="${ctx}/assets/images/login/log03.png">
                         <span>权限管理系统</span>
                     </h1>
-                    <p>©LW</p>
                 </div>
 
                 <div class="z-form">
@@ -423,6 +423,7 @@
 				}
 				data += "&vcode=" + vcode;
 			}
+			<%--有用户名和密码--%>
 			$(".z-loading-wrap").show();
 			$.ajax({
 				url: "${ctx}/admin/login",
@@ -432,6 +433,7 @@
 				beforeSend: function(xhr){
 					xhr.setRequestHeader("vcode","1");
 				},
+				<%--回调函数,接收到响应,立即调用function--%>
 				success: function(req){
 					if(req.retcode == 1){
 						var remenber = $("#setcheck").is(":checked");

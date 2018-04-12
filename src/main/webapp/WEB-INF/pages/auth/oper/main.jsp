@@ -7,7 +7,7 @@
         $("#openAppGrid").sgrid({
             columns:[
                 {field:"opid",text:"权限ID", sortColumn:"opid"},
-                {field:"opcode", text:"权限码"},
+                {field:"opcode", text:"用户名"},
                 {field:"opname", text:"权限名称"},
                 {field:"ophref", text:"链接地址"},
                 {field:"opseq", text:"排序"}

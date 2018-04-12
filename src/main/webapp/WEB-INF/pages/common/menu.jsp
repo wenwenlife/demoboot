@@ -21,15 +21,15 @@
 		                <a tabindex="-1" href="javascript:goPage('admin/user/mainPage')"><span class="mm-text">用户管理</span></a>
 		            </li>
 		            <li opCode="0102">
-		                <a tabindex="-1" href="javascript:goPage('admin/role/mainPage')"> <span class="mm-text">角色管理</span></a>
+		                <a tabindex="-1" href="javascript:goPage('admin/role/mainPage')"> <span class="mm-text">权限管理</span></a>
 		            </li>
-		            <li opCode="0103">
+		            <%-- <li opCode="0103">
 		                <a tabindex="-1" href="javascript:goPage('admin/oper/mainPage')"> <span class="mm-text">操作管理</span></a>
-		            </li>
+		            </li> --%>
 		        </ul>
 		    </li>
 		    <li class="mm-dropdown" opCode="02">
-		        <a href="#"><i class="menu-icon fa fa-barcode"></i><span class="mm-text">整合技术</span></a>
+		        <a href="#"><i class="menu-icon fa fa-barcode"></i><span class="mm-text">信息管理</span></a>
 		        <ul>
 		            <li opCode="0201">
 		                <a tabindex="-1" href="javascript:goPage('admin/tech/filePage')"><span class="mm-text">文件管理</span></a>
